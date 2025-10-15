@@ -17,6 +17,7 @@ It simulates UART, I²C, SPI, and a virtual DC-DC converter (PMBus) to demonstra
 - **Renode ≥ 1.16**
 - **Python ≥ 3.9**
 - **Robot Framework ≥ 7.0**
+- **Matplotlib**
 - **Git + GitHub CLI**
 
 ### Run Tests
