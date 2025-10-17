@@ -1,0 +1,13 @@
+
+using sysbus
+mach create "STM32F4_Discovery"
+
+machine LoadPlatformDescription "D:\Hardware\Renode\platforms\boards\stm32f4_discovery.repl"
+
+showAnalyzer uart4
+uart4 CreateFileBackend "d:/stm32f4-validation-suite/results/uart4_log.txt"
+uart4 WriteLine "STM32F4 Discovery board initialized in Renode."
+start
+
+
+
